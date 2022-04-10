@@ -3,15 +3,38 @@ body{
     font-size: 1em;
     max-width: 60%;
     margin: 0 auto;
-
 }
 
-h3{
-    margin: 0 auto;
-}
 ul{
     list-style: none;
 }
+
 a{
+    display: block;
+    font-size: 1.1em;
     text-decoration: none;
+    padding-bottom: 0.2em;
 }
+
+a:visited { color: darkblue; }
+
+a:hover {
+    border-bottom: 1px solid darkblue;
+    cursor: pointer;
+}
+
+a:active { color: #ff0000; }
+
+.accordion {
+    color: blue;
+}
+.active, .accordion:hover {
+    background-color: #ccc;
+}
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
+
