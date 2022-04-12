@@ -1,39 +1,52 @@
 
-body{
+body {
+    color: rgba(35, 37, 35, 0.84);
     font-size: 1em;
+    font-weight: 100;
+    background-color: #ffeaec;
     max-width: 60%;
     margin: 0 auto;
+    text-align: left;
 }
 
-ul{
+.wrapper {
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+article {
+    background-color: white;
+}
+
+section {
+    text-align: left;
+}
+
+ul {
     list-style: none;
 }
 
-a{
-    display: block;
+a {
+    display: inline-block;
     font-size: 1.1em;
     text-decoration: none;
     padding-bottom: 0.2em;
 }
 
-a:visited { color: darkblue; }
+h1, h2, h3 {
+    display: inline-block;
+}
+
+a:visited {
+    color: darkblue;
+}
 
 a:hover {
     border-bottom: 1px solid darkblue;
     cursor: pointer;
 }
 
-a:active { color: #ff0000; }
+a:active {
+    color: #ff0000;
+}
 
-.accordion {
-    color: blue;
-}
-.active, .accordion:hover {
-    background-color: #ccc;
-}
-.panel {
-    padding: 0 18px;
-    background-color: white;
-    display: none;
-    overflow: hidden;
-}
