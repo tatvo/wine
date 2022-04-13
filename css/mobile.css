@@ -1,7 +1,14 @@
 @media screen and (max-width: 480px){
     body{
         font-size: 0.8em;
-        max-width: 90%;
+        background-color: white;
+    }
+    h1{
+        font-size: 23px;
+        margin-bottom: 15px;
+    }
+    .wrapper{
+        width: 100%;
     }
     .max_480{
         display: none;
@@ -9,13 +16,12 @@
     .accordion {
         color: blue;
         cursor: pointer;
-
     }
-
     .panel {
-        padding: 0 18px;
+        padding: 0;
         background-color: white;
         display: none;
         overflow: hidden;
     }
+
 }
