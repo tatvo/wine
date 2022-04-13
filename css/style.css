@@ -4,22 +4,14 @@ body {
     font-size: 1em;
     font-weight: 100;
     background-color: #ffeaec;
-    max-width: 60%;
-    margin: 0 auto;
     text-align: left;
 }
 
 .wrapper {
-    padding-left: 2em;
-    padding-right: 2em;
-}
-
-article {
+    padding: 2em;
+    margin: 0 auto;
     background-color: white;
-}
-
-section {
-    text-align: left;
+    width: 60%;
 }
 
 ul {
@@ -35,6 +27,8 @@ a {
 
 h1, h2, h3 {
     display: inline-block;
+
+    margin: 0 0 0.3em 0;
 }
 
 a:visited {
@@ -58,9 +52,35 @@ a:active {
     display: flex;
     flex-direction: row-reverse;
     margin-bottom: 1.5em;
+    background-color: white;
+
 }
 .ya-share2{
     padding-right: 0.4em;
     padding-left: 0;
+}
 
+.max_480{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    border: 1px solid bisque;
+    background-color: #ffeaec;
+
+}
+.max_480 > h3{
+
+    text-align: center;
+    background-color: #ffeaec;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+li>.max_480{
+    background-color: #ffeaec;
+}
+.accordion .panel{
+    display: none;
 }
