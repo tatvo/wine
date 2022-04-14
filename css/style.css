@@ -81,6 +81,17 @@ ul{
 li>.max_480{
     background-color: #ffeaec;
 }
-.accordion .panel{
+
+
+#upbutton {
+    background: url("../img/button-up.png") no-repeat top left;
+    height: 60px;
+    width: 60px;
+    bottom: 30px;
+    right: 30px;
+    cursor: pointer;
     display: none;
+    position: fixed;
+    z-index: 999;
 }
+
