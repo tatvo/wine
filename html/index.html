@@ -2,15 +2,32 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="../css/normalize.css">
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/480.css">
+    <link rel="stylesheet" href="../css/mobile.css">
     <title> Wine </title>
 </head>
 <body>
-<a href="wine-of-france.html">Франция</a>
-<a href="wine-of-itali.html">Италия</a>
-<a href="wine-of-spain.html">Испания</a>
+<div class="wrapper">
+    <div class="wrapper_listofcountries">
+        <ul class="listofcountries">
+            <li class="item item_1"><a href="wine-of-france.html">ФРАНЦИЯ</a></li>
+            <li class="item item_2"><a href="wine-of-itali.html">ИТАЛИЯ</a></li>
+            <li class="item item_3"><a href="wine-of-spain.html">ИСПАНИЯ</a></li>
+            <li class="item item_4"><a href="wine-of-spain.html">СТАРЫЙ СВЕТ</a></li>
+            <li class="item item_5"><a href="wine-of-spain.html">НОВЫЙ СВЕТ</a></li>
+            <li class="item item_6"><a href="wine-of-spain.html">КРЕПЛЕНЫЕ ВИНА</a></li>
+        </ul>
+
+
+    </div>
+    <a id="upbutton" href="#" onclick="smoothJumpUp(); return false;">
+        <img src="../img/button-up.png" alt="Top" border="none" title="Наверх">
+    </a>
+</div>
+<script src="../js/accordion.js"></script>
+<script src="../js/button-up.js"></script>
 </body>
 </html>
