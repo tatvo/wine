@@ -32,14 +32,16 @@ body{
 .wrapper {
     padding: 2em;
     margin: 0 auto;
-    /*background-color: white;*/
+    background-color: white;
     width: 60%;
     min-height: 100vh;
 }
 
 
 .wrapper_listofcountries{
-    padding: 3em;
+    margin: 0 auto;
+    padding: 2em;
+    width: 50%;
 }
 
 .listofcountries{
