@@ -28,7 +28,11 @@ body{
     background-size: 20px 20px;
     background-color: #440000;
 }
-
+img{
+    width: 100%;
+    /*max-width: 400px;*/
+    height: auto;
+}
 .wrapper {
     padding: 2em;
     margin: 0 auto;
@@ -63,7 +67,7 @@ body{
     box-shadow: 1px 3px 0  2px darkslategrey;
 }
 .item:nth-child(even){
-    box-shadow:  2px 3px 0  2px rgb(148,13,43);
+    box-shadow:  1px 3px 0  2px darkslategrey;
 }
 .item>a{
     display: grid;
